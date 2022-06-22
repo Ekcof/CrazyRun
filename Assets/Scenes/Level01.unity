@@ -2462,6 +2462,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 139527510677792547, guid: 2bada8195d341844980ca665e5e63efe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 335224033721839651, guid: 2bada8195d341844980ca665e5e63efe, type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 70
@@ -3018,6 +3022,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e0b63f1cfe110994ba2ad2de0e5292de, type: 3}
+    - target: {fileID: 7126522025888159752, guid: 2bada8195d341844980ca665e5e63efe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7336652490531475827, guid: 2bada8195d341844980ca665e5e63efe, type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 76
