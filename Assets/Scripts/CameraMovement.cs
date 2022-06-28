@@ -40,7 +40,6 @@ public class CameraMovement : MonoBehaviour
     {
         distance = Vector3.Distance(transform.position, playerTransform.position);
         maxInLimitRelation = maxZoomdistanceIn / topDistance;
-        //maxOutLimitRelation = maxZoomdistanceOut / topDistance;
     }
 
     public void ChangeRelation(float newRelation)
@@ -50,9 +49,5 @@ public class CameraMovement : MonoBehaviour
         {
             relation = maxInLimitRelation;
         }
-        //else if (relation > maxOutLimitRelation)
-        //{
-        //    relation = maxOutLimitRelation;
-        //}
     }
 }
